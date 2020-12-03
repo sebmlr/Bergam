@@ -4,3 +4,13 @@
 #entrees{
     margin-top: 110px;
 }
+
+/* Réglages marges pour afficher les ancres avec le menu fixe*/
+#plats{
+    margin-bottom: -100px;
+}
+
+#desserts{
+    padding-top: 100px;
+  
+}
