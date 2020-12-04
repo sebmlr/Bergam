@@ -1,16 +1,17 @@
-/*
+
 *{
     color: white;
 }
 
-#column_right{
-    background-image: url("../images/bg_carte5.jpg");
+#carte{
+    background-image: url("../images/bg_carte85.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top;
+    background-position: right;
+    
 }
-*/
+
 
 *{
     font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,22 +20,27 @@
 #entrees{
     margin-top: -130px;
     padding-top: 130px;
+    
 }
-//Réglages marges pour afficher les ancres avec le menu fixe
+/*Réglages marges pour afficher les ancres avec le menu fixe*/
 #entrees{
     margin-top: -130px;
     padding-top: 130px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
     
 }
 #plats{
     margin-top: -130px;
     padding-top: 130px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
 }
 #desserts{
     margin-top: -130px;
     padding-top: 130px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
 }
 #carte_menus{
     margin-top: -130px;
     padding-top: 130px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
 }
