@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+#welcome {
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        font-family: Georgia;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 1%;
+        color: white; 
+        text-shadow: black 0.1em 0.1em 0.2em;
+        width: 70%;
+}
+
+#banniere {
+    margin-bottom: 20px;
+}
+
+#menu {
+    background-color:   #5eff51;
+    
+}
+
+#droite {
+    background-color:  lightblue;
+    
+}
