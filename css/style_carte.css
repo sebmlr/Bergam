@@ -1,16 +1,28 @@
 *{
     margin: 0;
 }
+/* 
 #entrees{
     margin-top: 110px;
 }
 
-/* Réglages marges pour afficher les ancres avec le menu fixe*/
+Réglages marges pour afficher les ancres avec le menu fixe
+#entrees{
+    margin-bottom: -100px;
+    padding-top: 100px;
+}
+
 #plats{
     margin-bottom: -100px;
+    padding-top: 100px;
 }
 
 #desserts{
     padding-top: 100px;
-  
+    margin-bottom: -100px;
 }
+#carte_menus{
+    padding-top: 100px;
+    margin-bottom: -100px;
+}
+*/
