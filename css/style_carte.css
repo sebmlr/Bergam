@@ -4,12 +4,11 @@
 }
 
 #carte{
-    background-image: url("../images/bg_carte85.jpg");
+    background-image: url("../images/bg_carte74.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
-    
 }
 
 
@@ -26,21 +25,40 @@
 #entrees{
     margin-top: -130px;
     padding-top: 130px;
-    color: white; text-shadow: black 0.1em 0.1em 0.2em
-    
+
+}
+#liste_entrees{
+    background-color: rgba(0, 0, 0, 0.3) ;
+    color: white;
 }
 #plats{
     margin-top: -130px;
     padding-top: 130px;
     color: white; text-shadow: black 0.1em 0.1em 0.2em
 }
+#liste_plats{
+    background-color: rgba(0,0,0,0.3) ;
+    color: white;
+}
 #desserts{
     margin-top: -130px;
     padding-top: 130px;
     color: white; text-shadow: black 0.1em 0.1em 0.2em
 }
+#liste_desserts{
+    background-color: rgba(0,0,0,0.3) ;
+    color: white;
+}
 #carte_menus{
     margin-top: -130px;
     padding-top: 130px;
     color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+form{
+    background-color: rgb(5, 56, 13);
+    opacity: 0.8;
+}
+.btn-primary{
+    background-color: rgba(163, 11, 11, 0.904);
+    border-color: white;
 }
