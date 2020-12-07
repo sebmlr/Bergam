@@ -3,17 +3,17 @@
 }
 
 #welcome {
-        z-index: 1;
-        position: absolute;
-        text-align: center;
-        font-family: Georgia;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        top: 1%;
-        color: white; 
-        text-shadow: black 0.1em 0.1em 0.2em;
-        width: 70%;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 1%;
+    color: #ac130b; 
+    text-shadow: white 0.1em 0.1em 0.2em;
+    width: 70%;
         
 }
 
@@ -22,15 +22,57 @@
     margin-top: 100px;
 }
 
-#menu {}
-
-#droite {}
+#page {
+        
+}
 
 #droite {
-    background-image: url("image-accueil/bg_carte5.jpg");
+    background-image: url("image-accueil/fond8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;   
+}
+
+#paragraphe1 {
+    font-size: xx-large;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#paragraphe2 {
+    font-size: xx-large;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#menu {
+    font-size: 15px;
+    font-size: medium;
+    background-color:  #ac130b;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
     
+}
+
+.nav-link {
+    font-size: x-large;
+}
+
+nav {
+    background-color:  #ac130b;
+}
+
+a {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    
+}
+
+a:hover {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background-color: #a0140c;
 }
