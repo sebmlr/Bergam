@@ -22,7 +22,7 @@ nav{
 #entrees{
     margin-top: -130px;
     padding-top: 130px;
-
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
 }
 #liste_entrees{
     background-color: rgba(0, 0, 0, 0.3) ;
