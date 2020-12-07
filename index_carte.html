@@ -13,17 +13,17 @@
 </head>
 
 <body class="container-fluid">
-  <div class="row">
-
-    <div id="column_left" class="col-lg-4">
+  
+  <div id="page" class="row">
+    <div id="colonne_gauche" class="col-lg-3">
       <h1>Mon menu nav</h1>
     </div>
 
+    <!-- colonne droite -->
+    <div id="colonne_droite"  class="container col-lg-9">
 
-    <div id="carte" class="container col-lg-8">
-      <!-- Menu de navigation de la carte -->
-      <section id="all-nav" class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Menu de navigation de la carte -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
           <a class="navbar-brand" href="#">Notre nouvelle carte est disponible !</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,12 +54,11 @@
             </ul>
           </div>
         </nav>
-      </section>
-
-
-
+  
+      <!-- Carte -->
+      <!-- Entrée -->
       <section id="entrees">
-        <H2>ENTRÉES</H2>
+        <br/><H2>ENTRÉES</H2>
         <div class="row">
           <!-- Carousel entrées-->
           <div id="carouselExampleInterval" class="carousel slide col-lg-3" data-ride="carousel">
@@ -77,7 +76,6 @@
           </div>
           <!-- Carte des Entrées -->
           <div id="liste_entrees" class="col-lg-9">
-
             <table class="table table-hover">
               <tbody>
                 <tr>
@@ -99,9 +97,11 @@
               </tbody>
             </table>
           </div>
+          </div>
       </section>
 
-      <section id="plats">
+      <!-- Plats -->
+      <br/><section id="plats">
         <H2>PLATS</H2>
         <div class="row">
           <!-- Carousel plats-->
@@ -144,7 +144,8 @@
         </div>
       </section>
 
-      <section id="desserts">
+      <!-- Desserts -->
+      <br/><section id="desserts">
         <H2>DESSERTS</H2>
         <div class="row">
           <!-- Carousel desserts-->
@@ -186,15 +187,15 @@
           </div>
       </section>
 
-      <!-- carte des menus -->
+      <!-- menus -->
       <section id="carte_menus">
-        <H2>NOS MENUS</H2>
-        <div class="row col">
-          <div id="menu1" class="col-lg col-sm-12">
-            <div class="card bg-dark text-white">
+        <br/><H2>NOS MENUS</H2>
+        <div class="row">
+          <div id="menu1" class="col-md-12 col-lg-4">
+            <div class="card1 text-white">
               <img src="images/italian-93237_640.jpg" class="card-img" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Menu découverte</h5>
+                <h3 class="card-title">Menu découverte à 35,00€</h3>
                 <p class="card-text">1 entrée au choix</p>
                 <p class="card-text">1 plat au choix</p>
                 <p class="card-text">1 dessert au choix</p>
@@ -202,11 +203,11 @@
             </div>
           </div>
 
-          <div id="menu2" class="col-lg col-sm-12">
-            <div class="card bg-dark text-white">
+          <div id="menu2" class="col-md-12 col-lg-4">
+            <div class="card2 text-white">
               <img src="images/italian-93237_640.jpg" class="card-img" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Menu express</h5>
+                <h3 class="card-title">Menu express à 25,00€</h3>
                 <p class="card-text">1 entrée et 1 plat au choix</p>
                 <p class="card-text">OU</p>
                 <p class="card-text">1 plat et 1 dessert au choix</p>
@@ -214,21 +215,109 @@
             </div>
           </div>
 
-          <div id="menu3" class="col-lg col-sm-12">
-            <div class="card bg-dark text-white">
+          <div id="menu3" class="col-md-12 col-lg-4">
+            <div class="card3 text-white">
               <img src="images/italian-93237_640.jpg" class="card-img" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Menu bambino</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h3 class="card-title">Menu bambino à 15€</h3>
+                <p class="card-text">Jusque 12 ans</p>
+                <p class="card-text">1 plat ET 1 dessert au choix</p>
+                <p class="card-text">Une surpirse offerte !!!</p>
+
               </div>
             </div>
           </div>
         </div>
       </section>
-    </div>
-  </div>
+ 
 
+    
+  <!-- Réservation -->
+  <!-- Réservation -->
+  <!-- Réservation -->
+  <form>
+    <h1>RÉSERVATION</h1><br/>
+    <fieldset>
+      <legend>VOUS CONTACTER</legend>
+      <div class="row container">
+        <div class="col">
+          <label for="Name">Nom</label>
+          <input type="text" class="form-control" id="name" placeholder="" required>
+        </div>
+        <div class="col">
+          <label for="firstName">Prénom</label>
+          <input type="text" class="form-control" id="firstName" placeholder="" required>
+        </div>
+      </div>
+      <div class="row container">
+        <div class="col">
+          <label for="mail"><br/><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-mailbox" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
+            <path fill-rule="evenodd" d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854z"/>
+            <path d="M5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z"/>
+          </svg> &nbsp Adresse Mail</label>
+          <input type="email" class="form-control" id="mail" aria-describedby="emailHelp"
+            placeholder="exemple@domaine.com" maxlength="50" size="20" required>
+          <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre e-mail avec
+            qui que
+            ce soit.</small>
+        </div>
+        <div class="col">
+          <label for="phone"><br/><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-phone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+            <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+          </svg> &nbsp N° de téléphone </label>
+          <input type="tel" class="form-control" id="firstName" pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}"
+            placeholder="ex 06.00.00.00.00" size="20" required>
+        </div>
+      </div><br />
+    </fieldset>
+
+    <fieldset>
+      <legend>RÉSERVER</legend>
+      <div class="row container">
+        <div class="col">
+          <label for="exampleFormControlSelect1">Nombre de courverts</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>+ de 10 personnes. Merci de nous appeller directement pour faire la réservation.
+            </option>
+          </select>
+        </div>
+        <div class="col">
+          <label for="date">Date</label>
+          <input type="date" class="form-control" id="date" required>
+        </div>
+        <div class="col">
+          <label for="time">Horaire</label>
+          <input type="time" class="form-control" id="time" min="11:00" max="24:00" step="60" value="11: 00" required>
+        </div>
+    </fieldset>
+
+
+    <div class="col-lg-6">
+      <label for="commentaire"><br/><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-right-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v11.586l-2-2A2 2 0 0 0 11.586 11H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+        <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+      </svg> &nbsp Votre message</label>
+      <textarea class="form-control" id="commentaire" rows="3"></textarea>
+    </div><br />
+
+    <button type="submit" class="btn btn-primary">Valider ma réservation</button>
+
+  </form>
+</div>
+</div>
+</div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
