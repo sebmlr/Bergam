@@ -9,16 +9,20 @@ div{
     padding-right: 0;
 }
 #colonne_droite{
-    background-image: url("../images/bg_carte74.jpg");
+    background-image: url("../images/bg_carte101.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
 }
+
+/* menu carte */
 nav{
     margin-left: -15px;
     margin-right: -15px;
 }
+
+/* carte */
 #entrees{
     margin-top: -130px;
     padding-top: 130px;
@@ -59,21 +63,27 @@ nav{
 .card3{
     background-color: rgb(160, 21, 21);
 }
+
+/* formulaire */
 form{
     background-color: rgb(17, 19, 17);
     opacity: 0.9;
     margin-top: 30px;
     margin-right: -15px;
     margin-left: -15px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     padding-right: 15px;
     padding-left: 15px;
-
+    padding-top: 20px;
 }
 option{
     color: rgb(0, 0, 0);
 }
 .btn-primary{
     background-color: rgba(163, 11, 11, 0.904);
+    border-color: white;
+}
+.btn-primary:hover{
+    background-color: rgb(15, 138, 56);
     border-color: white;
 }
