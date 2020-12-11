@@ -102,7 +102,7 @@ option{
 }
 
 @media (max-width: 600px){
-    #colonne_gauche{
+    #menu_gauche{
         background-color: rgb(160, 21, 21);
         position: relative;
     }
