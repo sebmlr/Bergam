@@ -1,16 +1,10 @@
-*{
-    margin: 0;
-}
 
 #welcome {
-    z-index: 1;
-    position: absolute;
+    margin: auto;
     text-align: center;
     font-family: Georgia;
-    margin: 0 auto;
     left: 0;
     right: 0;
-    top: 1%;
     color: #ac130b; 
     text-shadow: white 0.1em 0.1em 0.2em;
     width: 70%;
@@ -21,15 +15,15 @@
     margin-top: 100px;
 }
 
-#droite {
-    background-image: url("image-accueil/fond8.jpg");
+#colonne_droite {
+    background-image: url("../image-accueil/fond8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
-    margin-left: 25vw; 
+    margin-right: 0;   
 }
 
 #paragraphe1 {
@@ -44,17 +38,14 @@
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-#menu {
+#menu_gauche {
     font-size: medium;
     background-color:  #ac130b;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
-    height: 100vh;
-    width: 25vw;
     position: fixed;
-    
+    z-index: 1;
 }
-
 
 .nav-link {
     font-size: x-large;
@@ -75,3 +66,12 @@ a:hover {
     background-color: #a0140c;
 }
 
+.navbar-toggler {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    #welcome {
+        margin-top: 100px;
+    }
+}
