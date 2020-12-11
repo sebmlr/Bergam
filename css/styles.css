@@ -8,6 +8,7 @@ body{
 
 #menu_gauche,h1{
     text-align: center;
+    margin-top: 30px;
 }
 .contacts{
     margin-top: 80px;
@@ -40,14 +41,13 @@ body{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 0px;
-    text-align: center;
     font-family: 'Krona One', sans-serif;
     font-size: xx-large;
     left: 0;
     right: 0;
     color: #ac130b; 
     text-shadow: rgba(255, 255, 255, 0.822) 0.1em 0.1em 0.1em;
-    width: 70%;
+    width: 100%;
 }
 .titre{
     font-size: 55px;
@@ -112,12 +112,6 @@ a:hover {
 
 .navbar-toggler {
     color: white;
-}
-
-@media (max-width: 600px) {
-    #welcome {
-        margin-top: 40px;
-    }
 }
 
 #menu{
@@ -202,12 +196,7 @@ option{
     border-color: white;
 }
 
-@media (max-width: 600px){
-    #menu_gauche{
-        background-color: rgb(145, 7, 7);   
-        position: relative;
-    }
-}
+
 
 footer{
     background-color: rgb(145, 7, 7);   
@@ -224,4 +213,18 @@ footer{
     justify-content: center;
     background-color: #ac130b;
     color: white;
+}
+@media (max-width: 600px){
+    #menu_gauche{
+        background-color: rgb(145, 7, 7);   
+        position: fixed;
+    }
+    #welcome {
+        text-align: center;
+        margin-top: 110px;
+    }
+    #menu_gauche,h1{
+        text-align: center;
+        margin-top: 0px;
+    }
 }
