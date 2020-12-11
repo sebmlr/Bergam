@@ -218,3 +218,10 @@ footer{
     vertical-align: middle;
     height: 40px;
 }
+
+#validationResa{
+    display: flex;
+    justify-content: center;
+    background-color: #ac130b;
+    color: white;
+}

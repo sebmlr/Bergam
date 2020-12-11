@@ -1,2 +1,0 @@
-# Bergam
-Projet groupe
