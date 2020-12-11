@@ -1,0 +1,110 @@
+*{
+    color: white;
+    margin: 0;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(160, 21, 21);   
+}
+#menu{
+    background-color: rgb(160, 21, 21);
+    position: fixed;
+}
+
+#colonne_droite{
+    background-image: url("../images/bg_carte101.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    right: 0;
+    height: 100%;
+    margin-right: 0px;
+}
+
+/* menu carte */
+nav{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* carte */
+.prix{
+    text-align: right;
+}
+#entrees{
+    margin-top: -130px;
+    padding-top: 130px;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+#liste_entrees{
+    background-color: rgba(0,0,0,0.3) ;
+    color: white;
+}
+#plats{
+    margin-top: -130px;
+    padding-top: 130px;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+#liste_plats{
+    background-color: rgba(0,0,0,0.3) ;
+    color: white;
+}
+#desserts{
+    margin-top: -130px;
+    padding-top: 130px;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+#liste_desserts{
+    background-color: rgba(0,0,0,0.3) ;
+    color: white;
+}
+#carte_menus{
+    margin-top: -130px;
+    padding-top: 130px;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.card1{
+    background-color: rgb(15, 138, 56);
+}
+.card2{
+    background-color: rgb(228, 227, 227);
+}
+.card3{
+    background-color: rgb(160, 21, 21);
+}
+
+/* formulaire */
+form{
+    background-color: rgb(17, 19, 17, 0.9);
+    margin-top: 30px;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+option{
+    color: rgb(0, 0, 0);
+}
+.btn-primary{
+    background-color: rgba(163, 11, 11, 0.904);
+    border-color: white;
+}
+.btn-primary:hover{
+    background-color: rgb(15, 138, 56);
+    border-color: white;
+}
+
+@media (max-width: 600px){
+    #menu_gauche{
+        background-color: rgb(160, 21, 21);
+        position: relative;
+    }
+}
+

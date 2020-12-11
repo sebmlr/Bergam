@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style_carte.css">
+
+  <title>Carte</title>
+
+</head>
+
+<body class="container-fluid">
+
+  <div id="page" class="row">
+    <div id="menu" class="col-lg-3">
+      <h1>Mon menu nav</h1>
+    </div>
+
+    <!-- colonne droite -->
+    <div id="colonne_droite" class="container col-lg-9">
+
+
+        <header>
+            <div id="banniere">
+                <img src="image-accueil/banniere1.jpg" width="100%">
+                <div id="welcome">
+                    <h1 class="text-center font-italic"><strong>Bienvenue chez IL BERGAM</strong></h1>
+                </div>
+            </div>
+            <p class="text-justify font-italic">IL BERGAM vous invite à un savoureux voyage au coeur de l’Italie
+                authentique.
+                Goûtez les trésors gustatifs de la cuisine italienne traditionnelle au sein d’une ambiance
+                contemporaine…
+            </p>
+        </header>
+      
+      <!-- Menu de navigation de la carte -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">Notre nouvelle carte est disponible !</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#entrees">ENTRÉES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#plats">PLATS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#desserts">DESSERTS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                MENU
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#carte_menus">Menu Découverte</a>
+                <a class="dropdown-item" href="#carte_menus">Menu Express</a>
+                <a class="dropdown-item" href="#carte_menus">Menu Bambino</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Carte -->
+      <!-- Entrée -->
+
+      <section id="entrees"></section>
+        <br /><H2>ENTRÉES</H2>
+        <div class="row">
+          <!-- Carousel entrées-->
+          <div id="carouselExampleInterval" class="carousel slide col-lg-3" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="4000">
+                <img src="images/entrée2.jpg" class="d-block w-100" alt="entrée1">
+              </div>
+              <div class="carousel-item" data-interval="4000">
+                <img src="images/entrée1.jpg" class="d-block w-100" alt="entrée2">
+              </div>
+              <div class="carousel-item" data-interval="4000">
+                <img src="images/entrée3.jpg" class="d-block w-100" alt="entrée3">
+              </div>
+            </div>
+          </div>
+          <!-- Carte des Entrées -->
+          <div id="liste_entrees" class="col-lg-9">
+            <table class="table table-hover">
+              <tbody>
+                <tr>
+                  <td>Salade de roquette et parmesan</td>
+                  <td class="prix">9,00€</td>
+                </tr>
+                <tr>
+                  <td>Tomates mozzarella di Buffala, du basilic frais, de l’huile d’olive et quelques câpres</td>
+                  <td class="prix">12,00€</td>
+                </tr>
+                <tr>
+                  <td>Focaccia et charcuteries fines Italiennes, légumes grillés</td>
+                  <td class="prix">12,00€</td>
+                </tr>
+                <tr>
+                  <td>Salade gourmande Romana</td>
+                  <td class="prix">14,00€</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Plats -->
+      <section id="plats">
+        <br />
+        <H2>PLATS</H2>
+        <div class="row">
+          <!-- Carte des plats -->
+          <div id="liste_plats" class="col-lg-9">
+            <table class="table table-hover">
+              <tbody>
+                <tr>
+                  <td>Escalope de veau Milanaise, linguine napolitaine</td>
+                  <td class="prix">20,00€</td>
+                </tr>
+                <tr>
+                  <td>Pizza 5 formaggi</td>
+                  <td class="prix">15,00€</td>
+                </tr>
+                <tr>
+                  <td>Pasta : l'autentica Carbonara</td>
+                  <td class="prix">18,00€</td>
+                </tr>
+                <tr>
+                  <td>Risotto alla milanese aux légumes d’hiver</td>
+                  <td class="prix">18,00€</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Carousel plats-->
+          <div id="carouselExampleInterval" class="carousel slide col-lg-3" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="4000">
+                <img src="images/plat1.jpg" class="d-block w-100" alt="plat1">
+              </div>
+              <div class="carousel-item" data-interval="4000">
+                <img src="images/plat2.jpg" class="d-block w-100" alt="plat2">
+              </div>
+              <div class="carousel-item" data-interval="4000">
+                <img src="images/plat3.jpg" class="d-block w-100" alt="plat3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Desserts -->
+      
+      <section id="desserts">
+        <br />
+        <H2>DESSERTS</H2>
+        <div class="row">
+          <!-- Carousel desserts-->
+          <div id="carouselExampleInterval" class="carousel slide col-lg-3" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="4000">
+                <img src="images/cafe.jpg" class="d-block w-100" alt="dessert1">
+              </div>
+              <div class="carousel-item" data-interval="4000">
+                <img src="images/salade_fruits.jpg" class="d-block w-100" alt="dessert2">
+              </div>
+              <div class="carousel-item" data-interval="4000">
+                <img src="images/mille_feuille.jpg" class="d-block w-100" alt="dessert3">
+              </div>
+            </div>
+          </div>
+          <!-- Carte des desserts -->
+          <div id="liste_desserts" class="col-lg-9">
+            <table class="table table-hover">
+              <tbody>
+                <tr>
+                  <td>Café ou thé gourmand</td>
+                  <td class="prix">9,00€</td>
+                </tr>
+                <tr>
+                  <td>Planche de fromages fins Italiens, focaccia</td>
+                  <td class="prix">9,00€</td>
+                </tr>
+                <tr>
+                  <td>Mille-feuille aux framboises, coulis de fruits rouges</td>
+                  <td class="prix">9,00€</td>
+                </tr>
+                <tr>
+                  <td>Salade de fruits frais au citron vert et menthe fraîche</td>
+                  <td class="prix">9,00€</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </section>
+
+      <!-- menus -->
+      <section id="carte_menus">
+        <br />
+        <H2>NOS MENUS</H2>
+        <div class="row">
+          <div id="menu1" class="col-md-12 col-lg-4">
+            <div class="card1 text-white">
+              <img src="images/decouverte.jpg" class="card-img" alt="decouverte">
+              <div class="card-body">
+                <h3 class="card-title">Menu découverte à 30,00€</h3>
+                <p class="card-text">1 entrée au choix</p>
+                <p class="card-text">1 plat au choix</p>
+                <p class="card-text">1 dessert au choix</p>
+              </div>
+            </div>
+          </div>
+      
+          <div id="menu2" class="col-md-12 col-lg-4">
+            <div class="card2 text-white">
+              <img src="images/express.jpg" class="card-img" alt="express">
+              <div class="card-body">
+                <h3 class="card-title">Menu express à 25,00€</h3>
+                <p class="card-text">1 entrée et 1 plat au choix</p>
+                <p class="card-text">OU</p>
+                <p class="card-text">1 plat et 1 dessert au choix</p>
+              </div>
+            </div>
+          </div>
+      
+          <div id="menu3" class="col-md-12 col-lg-4">
+            <div class="card3 text-white">
+              <img src="images/bambino.jpg" class="card-img" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Menu bambino à 15€</h3>
+                <p class="card-text">Jusque 12 ans</p>
+                <p class="card-text">1 plat ET 1 dessert au choix</p>
+                <p class="card-text">Une surpirse offerte !!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Réservation -->
+      <form method="post" action="validation.html">
+        <h1>RÉSERVATION</h1><br />
+        <fieldset>
+          <legend>CONTACT</legend>
+          <div class="row container">
+            <div class="col">
+              <label for="Name">Nom</label>
+              <input type="text" class="form-control" id="name" placeholder="" required>
+            </div>
+            <div class="col">
+              <label for="firstName">Prénom</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" required>
+            </div>
+          </div>
+          <div class="row container">
+            <div class="col">
+              <label for="mail"><br /><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-mailbox"
+                  fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z" />
+                  <path fill-rule="evenodd" d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854z" />
+                  <path d="M5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z" />
+                </svg> &nbsp Adresse Mail</label>
+              <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="exemple@domaine.com" maxlength="50" size="20" required>
+              <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre e-mail avec qui que ce soit.</small>
+            </div>
+            <div class="col">
+              <label for="phone"><br /><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-phone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                  <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                </svg> &nbsp N° de téléphone </label>
+              <input type="tel" class="form-control" id="firstName" pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}" placeholder="ex 06.00.00.00.00" size="20" required>
+            </div>
+          </div><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>RÉSERVER</legend>
+          <div class="row container">
+            <div class="col">
+              <label for="exampleFormControlSelect1">Nombre de courverts</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>+ de 10 personnes. Merci de nous appeller directement pour faire la réservation.
+                </option>
+              </select>
+            </div>
+            <div class="col">
+              <label for="date">Date</label>
+              <input type="date" class="form-control" id="date" required>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+              <label for="time">Horaire (12:00 - 14h30 / 19:00 -23:00)</label>
+              <select class="form-control" id="time" required minlength="4">
+                <option>12:00</option>
+                <option>12:30</option>
+                <option>13:00</option>
+                <option>13:30</option>
+                <option>14:00</option>
+                <option>-</option>
+                <option>19:00</option>
+                <option>19:30</option>
+                <option>20:00</option>
+                <option>20:30</option>
+                <option>21:00</option>
+                <option>22:30</option>
+                <option>22:00</option>
+                <option>22:30</option>
+                </option>
+              </select>
+            </div>
+        </fieldset>
+
+        <div class="col-lg-6">
+          <label for="commentaire"><br /><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-right-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v11.586l-2-2A2 2 0 0 0 11.586 11H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z" />
+              <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+            </svg> &nbsp Votre message</label>
+          <textarea class="form-control" id="commentaire" rows="3"></textarea>
+        </div><br />
+
+        <button type="submit" class="btn btn-primary">Valider ma réservation</button>
+
+      </form>
+    </div>
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
