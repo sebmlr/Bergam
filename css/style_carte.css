@@ -107,10 +107,3 @@ option{
         position: relative;
     }
 }
-
-#menu{
-    z-index: 1;
-}
-#welcome{
-    margin-top: 30px;
-}
