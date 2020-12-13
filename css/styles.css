@@ -24,14 +24,13 @@ body{
 }
 
 #colonne_droite {
-    background-image: url("../image-accueil/fond8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
     color: white;
     margin-right: 0;  
-    background-image: url("../image-accueil/fond8.3.jpg");
+    background-image: url("../images/bg_carte101.jpg");
     right: 0;
     height: 100%;
     margin-right: 0px; 
@@ -78,7 +77,7 @@ justify-content: center;
     font-size: xx-large;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
-    background-color: rgba(0,0,0,0.4) ;
+    background-color: rgba(0,0,0,0.6) ;
     padding: 15px;
 }
 
@@ -134,7 +133,7 @@ nav{
 td{
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
-    background-color: rgba(0,0,0,0.4) ;
+    background-color:  rgba(0, 0, 0, 0.6); 
 }
 .prix{
     text-align: right;
