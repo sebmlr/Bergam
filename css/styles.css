@@ -10,6 +10,15 @@ body{
     text-align: center;
     margin-top: 30px;
 }
+#menu_gauche {
+    font-size: medium;
+    background-color: rgb(145, 7, 7);   
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    position: fixed;
+    z-index: 1;
+}
+
 .contacts{
     margin-top: 45px;
 }
@@ -81,14 +90,7 @@ justify-content: center;
     padding: 15px;
 }
 
-#menu_gauche {
-    font-size: medium;
-    background-color: rgb(145, 7, 7);   
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    position: fixed;
-    z-index: 1;
-}
+
 
 .nav-link {
     font-size: x-large;
@@ -158,17 +160,19 @@ td{
 #carte_menus{
     margin-top: -130px;
     padding-top: 130px;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    
 }
 .card1{
     background-color: rgb(15, 138, 56);
 }
 .card2{
-    background-color: rgb(228, 227, 227);
+    background-color: rgb(224, 223, 223);
 }
 .card3{
     background-color: rgb(145, 7, 7);   
 }
+
 
 /* formulaire */
 form{
@@ -180,7 +184,6 @@ form{
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 20px;
-    text-shadow: black 0.1em 0.1em 0.2em;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 option{
@@ -225,5 +228,8 @@ footer{
     #menu_gauche,h1{
         text-align: center;
         margin-top: 0px;
+    }
+    .card-body{
+        margin-bottom: 20px;
     }
 }
